@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-----------css------------------>
+    <link rel="stylesheet" href = "assets/css/style.css">
+
+    
+    <title>Priya Portfolio</title>
+    <script src="https://kit.fontawesome.com/b889b5ce94.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="background-overlay">
+            <div class="background-image">
+            </div>
+        </div>
+        <div class="container">
+            <nav> 
+                <img src="image/logo.png" class="logo">
+                <button onclick="toggleTheme()" class="theme-toggle">
+                    <i id="themeIcon" class="fa-solid fa-moon"></i>
+                </button>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#family">Family</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#prjwork">Project</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            
+            <div class="header-text">
+                <h1>PRIYA KAMARAJ</h1>
+                <h4>IMPACTOR</h4>
+            </div>
+        </div>    
+    </div>
+<!----------------ABOUT------------------->
+    <div id="about">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#family">Family</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#prjwork">Project</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <h1 class="sub-title">
+                Me, Myself and I
+            </h1>
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/background.jpg">
+                </div>
+                    
+                <div class="about-col-2">
+                    
+                    <p class="sub">Hi, I am Priya. My passion for computer science and technology has been the driving force behind my academic pursuits. Currently, I am gaining practical experience through an Internship at Psiog Digital. This internship has provided me with valuable hands-on experience and insights into the real-world industry practices. Overall, I am a motivated and dedicated individual with a strong passion for technology and a commitment to personal and professional growth.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------FAMILY------------------->
+    <div id="family">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#family">Family</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#prjwork">Project</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <h1 class="sub-title">My Family</h1>
+            
+            <div class="family-list" id="familyList">
+                <div class="family-member father">
+                    <i class="fas fa-house-user"></i>
+                    <i class="fa-solid fa-family"></i>
+                    <h2>Father</h2>
+                    <p><span>Name :</span> Kamaraj S <br><span>Occupation :</span>  Farmer</p>
+                </div>
+
+                <div class="family-member mother">
+                    <i class="fas fa-house-user"></i>
+                    <i class="fa-solid fa-family"></i>
+                    <h2>Mother</h2>
+                    <p><span>Name :</span> Baby K <br><span>Occupation :</span>  Home Maker</p>
+                </div>
+                <div class="family-member sister">
+                    <i class="fas fa-house-user"></i>
+                    <i class="fa-solid fa-family"></i>
+                    <h2>Sister</h2>
+                    <p><span>Name :</span> Preetha K <br> <span>Occupation :</span> Architect</p>
+                </div>
+            </div>
+            <div id="imageGallery" style="display:none;">
+                <img src="image/DSC_0731.JPG" alt="Image 1">
+                <img src="image/DSC_0730.JPG" alt="Image 2">
+                <img src="image/RAJ_4221.JPG" alt="Image 3">
+            </div>
+            <button onclick="toggleGallery()" class="btn">Show Images</button>
+        </div>
+    </div>
+
+    <!----------------EDUCATION------------------->
+    <div id="education">
+        <div class="background-overlay"> </div>
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#family">Family</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#prjwork">Project</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <h1 class="sub-title">Education</h1>
+            <div class="education-list">
+                <div class="education-list-10th">
+                    <i class="fa-solid fa-school"></i>
+                    <h2>SSLC</h2>
+                    <p><span>School :</span> <br>Aruthraa Vidyalaya Matric Hr.Sec.School <br> <span>Percentage :</span><br> 94%</p>
+                    <!-- <a href="#">Show image</a> -->
+                </div>
+
+                <div class="education-list-12th">
+                    <i class="fa-solid fa-school"></i>
+                    <h2>HSC</h2>
+                    <p><span>School :</span><br> Aruthraa Vidyalaya Matric Hr.Sec.School <br><span> Percentage :</span><br> 81.33%</p>
+                    <!-- <a href="#">Show image</a> -->
+                </div>
+                <div class="education-list-UG">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h2>UG</h2>
+                    <p><span>College : </span><br>Sri Eshwar College of Engineering <br><span>CGPA : </span><br> 9.05*</p>
+                    <!-- <a href="#">Show image</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+     <!----------------Project------------------->
+    <div id="prjwork">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#family">Family</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#prjwork">Project</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image\prj1.png">
+                    <div class="layer">
+                        <h3>Online Voting System</h3>
+                        <p>This is based on the domain web development which provides the users the comfort to cast their votes from their own places.</p>
+                        <a href="https://github.com/PRIYAKAMARAJ05/online_voting"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image\tappercard.jpg">
+                    <div class="layer">
+                        <h3>Tapper Card</h3>
+                        <p>This ticketless system gives people the comfort to get their ticket by tapping the card on the scanner.</p>
+                        <a href="https://github.com/PRIYAKAMARAJ05/Tapper-card"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="work">
+                    <img src="image\prj1.png">
+                    <div class="layer">
+                        <h3>Certificates</h3>
+                        <p></p>
+                        <a href="https://github.com/PRIYAKAMARAJ05"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!----------------Hobbies------------------->
+    <div id="hobbies">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#family">Family</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#prjwork">Project</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <h1 class="sub-title">Hobbies</h1>
+            <div class="hobby-list" id="hobbyList">
+                <div class="hobby">
+                    <img src="image\doodle.jpg">
+                    <div class="layer">
+                        <h3>Doodling</h3>
+                        <p></p>
+                        
+                    </div>
+                </div>
+                <div class="hobby">
+                    <img src="image\mandala.jpg">
+                    <div class="layer">
+                        <h3>Mandala Art</h3>
+                        <p></p>
+                        
+                    </div>
+                </div>
+                <div class="hobby">
+                    <img src="image\kdrama.png">
+                    <div class="layer">
+                        <h3>Watching k-Dramas</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div id="hobbyGallery" style="display:none;">
+                <img src="assets/image/IMG_20240312_220803.jpg" alt="Image 1">
+                <img src="assets/image/IMG_20240312_220931.jpg" alt="Image 4">
+                
+                <img src="assets/image/IMG_20240312_220919.jpg" alt="Image 3">
+                <img src="assets/image/IMG_20240312_221024.jpg" alt="Image 6">
+                <img src="assets/image/IMG_20240312_220859.jpg" alt="Image 2">
+                <img src="assets/image/IMG_20240312_221009.jpg" alt="Image 5">
+                
+            </div>
+            <button onclick="toggleHobby()" class="btn">Show Images</button>
+        </div>
+
+    </div>
+  <!----------------Contact------------------->
+    <div id="contact">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#family">Family</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#prjwork">Project</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <i class="fas fa-times" onclick="closemenu()"></i> -->
+                </ul>
+                <!-- <i class="fas fa-bars" onclick="openmenu()"></i> -->
+            </nav>
+            <div class="map">
+                <h1 class="sub-title">Contact Me</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d72632.43632959916!2d78.83057629410575!3d11.241359312907313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bab1b69f8350197%3A0x70ef43f0315a8d8b!2sPerambalur%2C%20Tamil%20Nadu%20621212!5e0!3m2!1sen!2sin!4v1710256083215!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="row">
+                <div class="contact-left">
+                    
+                    <p><i class="fa-regular fa-envelope"></i>abc@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9876543210</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/priya-kamaraj-"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/_niki_05_k_"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright @ Priya Kamaraj</p>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
